@@ -34,18 +34,6 @@ while err > 1e-3
     T_old = T;
     err_p(k) =err;
 
-
-%xlabel('No. of iterations', 'FontSize',14)
-%ylabel('Residual [-]', 'FontSize',14)
-%set(gca,'FontSize', 14)
-%shg 
-%pause(0.01)
-
-
-%pause(0.01)
-%xlabel('Length [m]', 'FontSize',14)
-%ylabel('Height [m]', 'FontSize',14)
-%set(gca,'FontSize', 14)
 end
 figure(1)
 plot(err_p);
